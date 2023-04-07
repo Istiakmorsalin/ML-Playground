@@ -1,0 +1,13 @@
+prefix=/Users/istiakmorsalin/iOffice/ml_projects/sample_project/env
+exec_prefix=/Users/istiakmorsalin/iOffice/ml_projects/sample_project/env
+libdir=/Users/istiakmorsalin/iOffice/ml_projects/sample_project/env/lib
+sharedlibdir=/Users/istiakmorsalin/iOffice/ml_projects/sample_project/env/lib
+includedir=/Users/istiakmorsalin/iOffice/ml_projects/sample_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
